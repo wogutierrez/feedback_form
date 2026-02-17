@@ -55,12 +55,14 @@ const FeedbackForm = () => {
           value={formData.email}
           onChange={handleChange}
         />
+
         <textarea
           name="feedback"
           placeholder="Your feedback"
           value={formData.feedback}
           onChange={handleChange}
         ></textarea>
+
         <button type="submit">Submit Your Feedback</button>
       </form>
     </>
